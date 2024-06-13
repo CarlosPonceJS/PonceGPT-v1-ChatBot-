@@ -1,0 +1,230 @@
+/*NAVBAR.*/
+.navbar{
+    background-color: #20274c !important;
+}
+
+.selected{
+    background-color:#28316d;
+    border-radius: 5px;
+}
+
+/* Small screen */
+@media (min-width: 360px) and (max-width: 700px){
+    #messages{
+        margin: auto;
+        width: 100% !important;
+        height: 400px !important;
+    }
+    .imgLogo{
+        display:flex !important;
+        width: 100% !important;
+        align-items: center !important;
+        justify-content: center !important;
+        text-align: center;
+        max-height: 400px;
+        margin: auto;
+    }
+
+    #imgLogo{
+        width: 100% !important;
+    }
+
+    .group {
+        display: flex;
+        width: 100%;
+    }
+    
+    input {
+        flex: 1; 
+        margin-right: 10px; 
+    }
+    #imgLogo img {
+        max-width: 100%;
+        height: auto;
+    }
+    #chatBox{
+        width:100% !important;
+    }
+    .foot{
+        width: 100% !important;
+    }
+    .btn{
+        position: absolute;
+        right: 4% !important;
+    }
+}
+
+/* Medium screen */
+@media (min-width: 701px) and (max-width: 1000px){
+    #messages{
+        margin: auto;
+        width: 100% !important;
+        height: 400px !important;
+    }
+    .imgLogo{
+        display:flex !important;
+        width: 100% !important;
+        align-items: center !important;
+        justify-content: center !important;
+        text-align: center;
+        max-height: 400px;
+        margin: auto;
+    }
+
+    #imgLogo{
+        width: 100% !important;
+        height: 100% !important;
+        max-height: 400px !important;
+    }
+
+    .group {
+        display: flex;
+        width: 100%;
+    }
+    
+    input {
+        flex: 1; 
+        margin-right: 10px; 
+    }
+    #imgLogo img {
+        max-width: 100%;
+        height: auto;
+    }
+    #chatBox{
+        width:100% !important;
+    }
+    .foot{
+        width: 100% !important;
+    }
+    .btn{
+        position: absolute;
+        right: 4% !important;
+    }
+}
+
+/* Large screen */
+@media (min-width: 1001px) {
+    #messages {
+      margin: auto;
+      height: 500px;
+    }
+  
+    .imgLogo {
+      max-height: 400px;
+      margin: auto;
+    }
+  
+    #imgLogo {
+      max-width: 100%;
+      max-height: 100%;
+    }
+  
+    .group {
+      width: 100%; 
+      margin: auto;
+    }
+  
+    #chatBox {
+      width: 100%; 
+      margin: auto;
+    }
+  
+    .foot {
+      width: 100%; 
+      margin: auto;
+      margin-top: 50px;
+    }
+  
+    .btn {
+      position: relative;
+      right: 0;
+    }
+  
+    .msg {
+      width: 100%; 
+      margin: auto;
+    }
+  }
+  
+
+/* msg style */
+.msg {
+    height: 450px;
+    overflow-y: auto;
+    width: 900px;
+    background-color:#28316d;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    margin-right: auto;
+}
+
+.imgLogo{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#messageArea {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    text-align: left !important;
+    justify-content: start;
+    
+}
+/*Background color.*/
+html, body{
+    background-color: #28316d;
+}
+
+.wrapper {
+    display:flex;
+    width: 900px;
+    max-width: 100%;
+    position: relative;
+    justify-content: center;
+}
+.wrapper button {
+    display: flex;
+    position: absolute;
+    right: 0;
+    color:white;
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    width: 30px;
+    top:15%;
+    justify-content: center;
+    align-items: center;
+    right: 1%;
+}
+/*Message INPUT*/
+#chatBox {
+    display:flex;
+    border: none;
+    border-radius: 14px;
+    padding: 10px;
+    width: 900px;
+    background-color: #20274c;
+    color: white;
+}
+#chatBox::placeholder{
+    color:rgb(213, 211, 211)
+}
+
+
+/*Footer*/
+.foot{
+    position:relative;
+    background-color: #20274c;
+    padding: 10px;
+    position: fixed;
+    bottom:0;
+    
+}

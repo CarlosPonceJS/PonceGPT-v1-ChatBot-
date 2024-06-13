@@ -1,0 +1,77 @@
+/*Navigation.*/
+.navbar{
+    background-color: #20274c !important;
+}
+
+.selected{
+    background-color:#28316d;
+    border-radius: 5px;
+}
+/*Background color.*/
+html, body{
+    background-color: #28316d;
+}
+
+/*Form*/
+.form{
+    display: flex;
+    margin-top: 30px;
+    height: 300px;
+    align-items: center;
+    flex-direction: column;
+}
+
+.txt{
+    border: none;
+    border-radius: 10px;
+    height: 40px;
+    background-color:#20274c;
+    color:white;
+    width: 600px;
+    margin-bottom: 15px;
+}
+.txt::placeholder{
+    color:gainsboro;
+}
+
+.btn{
+    color:white;
+    width: 300px;
+}
+
+/*Footer*/
+.foot{
+    background-color: #20274c;
+    padding: 10px;
+    position: fixed;
+    bottom:0;
+}
+
+/* CSS to style the table */
+.t {
+    background-color: #28316d !important; /* Set background color */
+  }
+  
+  .table th,
+  .table td {
+    color: white; 
+  }
+  
+  .table th {
+    border-bottom: 2px solid white; 
+  }
+  
+  .table td {
+    border-bottom: 1px solid white;
+  }
+  
+  /* Additional styles for the table header */
+  .table thead th {
+    vertical-align: middle; 
+  }
+  
+  /* Additional styles for table actions column */
+  .table .actions {
+    width: 150px;
+  }
+  
